@@ -1,0 +1,149 @@
+.beauty {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+  position: relative;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px 20px;
+  max-width: 85%;
+}
+
+.box4 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* width: 300px; */
+  max-width: 600px;
+  min-width: 150px;
+  padding: 20px;
+}
+
+.box4 > img {
+  max-width: 200px;
+  min-width: 50px;
+  border-radius: 6%;
+  /* margin-right: 20px; */
+}
+
+.textbeau {
+  margin-bottom: 100px;
+}
+
+.textbeau h5 {
+  font-size: 17px;
+  margin-bottom: 30px;
+  color: rgb(63, 62, 62);
+  text-align: center;
+  /* width: 243px; */
+  min-width: 200px;
+  max-width: 600px;
+}
+
+.textbeau h3 {
+  margin-bottom: 40px;
+  /* width: 250px; */
+  max-width: 350px;
+  text-align: center;
+  min-width: 200px;
+}
+
+ul {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: gray;
+}
+
+ul .li3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+ul .li3 li {
+  margin: 10px;
+  width: 110px;
+  max-width: 200px;
+  min-width: 120px;
+}
+
+.black {
+  font-weight: bold;
+  color: black;
+}
+.size {
+  font-size: 20px;
+}
+.form1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 250px;
+  min-width: 100px;
+}
+.form1 .cars {
+  display: grid;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+}
+.form1 label {
+  font-size: 15px;
+  position: relative;
+  right: 20px;
+}
+
+.form1 select {
+  width: 80px;
+  color: var(--main-color);
+  border: none;
+  border: 1px solid rgba(128, 128, 128, 0.486);
+}
+
+.form1 .btn4 {
+  width: 120px;
+  height: 33px;
+  margin-top: 17px;
+  max-width: 200px;
+  margin-left: 10px;
+  color: var(--main-color);
+  min-width: 100px;
+  border-radius: 3px;
+  text-align: center;
+  border: none;
+  border: 1px solid rgba(128, 128, 128, 0.486);
+}
+.form1 .btn4:hover {
+  background-color: var(--main-color);
+  color: #fafafa;
+}
+
+/*Start Footer*/
+footer {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 10px #ff62007a;
+  margin: 0;
+}
+
+footer p {
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
